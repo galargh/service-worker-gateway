@@ -16,7 +16,7 @@ jobs:
     with:
       tag: ${{ inputs.tag }}
       environment: staging
-      lock: true
+      lock: false
     secrets:
       DEPLOYMENT_GITHUB_TOKEN: ${{ secrets.DEPLOYMENT_GITHUB_TOKEN }}
 
