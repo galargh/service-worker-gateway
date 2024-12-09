@@ -29,7 +29,7 @@ permissions: {}
 
 jobs:
   deploy:
-    name: Deploy
+    name: Deploy ${{ inputs.tag }} to ${{ inputs.environment }}
     runs-on: ubuntu-latest
     environment: ${{ inputs.environment }}
     steps:
