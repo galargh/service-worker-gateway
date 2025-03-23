@@ -1,0 +1,6 @@
+# Welcome to Unified CI! This file contains the configuration for your project.
+# You can edit it to customize the behavior of Unified CI.
+# For more information, see https://github.com/ipdxco/unified-github-workflows
+
+# The Unified CI templates which should be distributed to your project.
+files: ["generated-pr.yml","go-check.yml","go-test.yml","js-test-and-release.yml","release-check.yml","releaser.yml","semantic-pull-request.yml","stale-issue.yml","tagpush.yml"]
